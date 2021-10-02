@@ -1,8 +1,11 @@
 const express = require('express');
 
-// require('./patrones/singleton/index');
-// require('./patrones/simple-factory/index');
-require('./patrones/facade/index');
+// require('./patrones/singleton');
+// require('./patrones/simple-factory');
+// require('./patrones/facade');
+// require('./patrones/decorator');
+// require('./patrones/adapter');
+require('./patrones/iterator');
 
 const app =  express();
 
