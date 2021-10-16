@@ -5,7 +5,9 @@ const express = require('express');
 // require('./patrones/facade');
 // require('./patrones/decorator');
 // require('./patrones/adapter');
-require('./patrones/iterator');
+// require('./patrones/iterator');
+// require('./patrones/chain-of-responsability');
+require('./patrones/dao');
 
 const app =  express();
 
